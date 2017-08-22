@@ -1,0 +1,61 @@
+USE [Estudiantes]
+GO
+/****** Object:  StoredProcedure [dbo].[sp_inserta_Estudiantes]    Script Date: 30/07/2017 22:17:58 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+ALTER procedure [dbo].[sp_inserta_Estudiantes]
+(
+
+@Nombre varchar(50),
+@Apellidos varchar(50),
+@Genero varchar(15),
+@TipoIdent varchar(50),
+@Noident varchar(50),
+@Fechanaci date,
+@Direccion text,
+@Telefono varchar(50),
+@NombreFam varchar(50),
+@Matricula varchar(50),
+@Carrera varchar(50)
+
+)
+
+As
+insert into [dbo].[Estudiantes]
+(
+
+[Nombre], 
+[Apellidos], 
+[Genero], 
+[TipodeIdentificacion],
+[Noidentificacion],
+[Fechanaci],
+[Direccion], 
+[Telefono],
+[Familiar],
+[Matricula],
+[Carrera], 
+[FechaCreacion], 
+[Usuario]
+)
+
+Values
+(
+
+@Nombre,
+@Apellidos,
+@Genero,
+@TipoIdent,
+@Noident,
+@Fechanaci,
+@Direccion,
+@Telefono,
+@NombreFam,
+@Matricula,
+@Carrera,
+GETDATE(),
+USER
+
+)

@@ -1,0 +1,15 @@
+USE [Estudiantes]
+GO
+/****** Object:  StoredProcedure [dbo].[sp_consulta_Estudiantes]    Script Date: 30/07/2017 21:10:53 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+ALTER procedure [dbo].[sp_consulta_Estudiantes]
+(
+@criterio varchar(50)
+
+)
+As
+select *from [dbo].[Estudiantes]
+where Nombre like  @criterio + '%'
