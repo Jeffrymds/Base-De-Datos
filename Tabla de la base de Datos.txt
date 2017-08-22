@@ -1,0 +1,39 @@
+USE [Estudiantes]
+GO
+
+/****** Object:  Table [dbo].[Estudiantes]    Script Date: 30/07/2017 15:10:01 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[Estudiantes](
+	[idEstudiantes] [int] IDENTITY(1,1) NOT NULL,
+	[Nombre] [varchar](50) NULL,
+	[Apellidos] [varchar](50) NULL,
+	[Genero] [varchar](15) NULL,
+	[TipodeIdentificacion] [varchar](50) NULL,
+	[NoIdentificacion] [varchar](50) NULL,
+	[Fechanaci] [date] NULL,
+	[Direccion] [text] NULL,
+	[Telefono] [varchar](50) NULL,
+	[Familiar] [varchar](50) NULL,
+	[Matricula] [varchar](50) NULL,
+	[Carrera] [varchar](50) NULL,
+	[Fechacreacion] [datetime] NULL,
+	[Usuario] [varchar](50) NULL,
+ CONSTRAINT [PK_Estudiantes] PRIMARY KEY CLUSTERED 
+(
+	[idEstudiantes] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+
