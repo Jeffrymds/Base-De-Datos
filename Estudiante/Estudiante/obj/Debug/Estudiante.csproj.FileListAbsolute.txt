@@ -1,0 +1,11 @@
+c:\users\davidjom\documents\visual studio 2012\Projects\Estudiante\Estudiante\bin\Debug\Estudiante.exe.config
+c:\users\davidjom\documents\visual studio 2012\Projects\Estudiante\Estudiante\bin\Debug\Estudiante.exe
+c:\users\davidjom\documents\visual studio 2012\Projects\Estudiante\Estudiante\bin\Debug\Estudiante.pdb
+c:\users\davidjom\documents\visual studio 2012\Projects\Estudiante\Estudiante\obj\Debug\Estudiante.csprojResolveAssemblyReference.cache
+c:\users\davidjom\documents\visual studio 2012\Projects\Estudiante\Estudiante\obj\Debug\Estudiante.Registro.resources
+c:\users\davidjom\documents\visual studio 2012\Projects\Estudiante\Estudiante\obj\Debug\Estudiante.Nuevo.resources
+c:\users\davidjom\documents\visual studio 2012\Projects\Estudiante\Estudiante\obj\Debug\Estudiante.Properties.Resources.resources
+c:\users\davidjom\documents\visual studio 2012\Projects\Estudiante\Estudiante\obj\Debug\Estudiante.csproj.GenerateResource.Cache
+c:\users\davidjom\documents\visual studio 2012\Projects\Estudiante\Estudiante\obj\Debug\Estudiante.exe
+c:\users\davidjom\documents\visual studio 2012\Projects\Estudiante\Estudiante\obj\Debug\Estudiante.pdb
+C:\Users\davidjom\Documents\Visual Studio 2012\Projects\Estudiante\Estudiante\obj\Debug\Estudiante.Consultar.resources
